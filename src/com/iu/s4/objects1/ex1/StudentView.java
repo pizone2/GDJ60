@@ -6,7 +6,8 @@ public class StudentView {
 	//N명의 학생들을 받아서 학생의 모든 정보를 출력
 	public void view(Student[] students) {
 		for(int i=0;i<students.length;i++) {
-			Student view.student = students[i];
+			Student student = students[i];
+			this.view(student);
 			
 ////			System.out.println(student[i].name);
 //			System.out.println("Name : "+student.name);

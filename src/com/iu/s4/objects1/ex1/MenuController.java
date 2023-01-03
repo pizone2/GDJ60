@@ -36,7 +36,7 @@ public class MenuController {
 				
 				Student student = si.findStudent(students);
 				if(student != null) {
-					sv.viewOne(student);
+					sv.view(student);
 				}else {
 					System.out.println("학생을 찾지 못하였습니다.");
 				}
@@ -44,7 +44,7 @@ public class MenuController {
 				
 				
 			}else if (cs==3){
-				sv.viewList(students);
+				sv.view(students);
 			}else if(cs==4){
 				System.out.println("학생을 추가합니다.");
 				 students = si.setStudent(students);

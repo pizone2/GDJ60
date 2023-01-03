@@ -12,7 +12,7 @@ public class MonsterMain {
 		
 		System.out.println(mon1 == mon2);
 		boolean result = mon1.checkValue(mon2);
-		System.out.println("Result :"+result);
+		System.out.println("Result : "+result);
 //		System.out.println(mon1);
 //		mon1.info();
 //		System.out.println(mon2);
