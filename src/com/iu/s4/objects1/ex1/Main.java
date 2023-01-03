@@ -7,6 +7,7 @@ public class Main {
 		
 	//	menuController.start();
 		md.start();
+		System.out.println("종료");
 	}
-
+	
 }
